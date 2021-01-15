@@ -1,0 +1,4 @@
+<!--pages/about/about.wxml-->
+<text class="title">pages/about/about.wxml</text>
+<text class="title">HelloWorld</text>
+<button >按钮</button>
