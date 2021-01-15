@@ -2,3 +2,4 @@
 <text class="title">pages/about/about.wxml</text>
 <text class="title">HelloWorld</text>
 <button >按钮</button>
+<text>标签1测试</text>
