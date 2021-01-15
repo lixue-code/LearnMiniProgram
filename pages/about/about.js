@@ -5,7 +5,38 @@ Page({
    * 页面的初始数据
    */
   data: {
+    name:"lixue",
+    age:12,
+    students:[
+      {id:1,name:'lixue'},
+      {id:2,name:'zhangsan'},
+      {id:3,name:'lisi'},
+      {id:4,name:'wangwu'},
+      {id:5,name:'zhaoliu'},
+    ],
+    counter:0
 
+  },
+
+  /**
+   * 自定义函数
+   */
+  handlerButtonClick(){
+      //1.界面不会刷新
+      // console.log("按钮点击了");
+      // console.log( this.data.counter++);
+
+      //2.this.setData();
+      this.setData({
+        counter:this.data.counter+1
+      });
+
+  },
+  subHandlerButtonClick(){
+    console.log("点击了减号");
+    this.setData({
+      counter:this.data.counter-1
+    });
   },
 
   /**

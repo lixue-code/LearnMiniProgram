@@ -1,5 +1,14 @@
 <!--pages/about/about.wxml-->
-<text class="title">pages/about/about.wxml</text>
-<text class="title">HelloWorld</text>
-<button >按钮</button>
-<text>标签2</text>
+<!-- 1.数据绑定 -->
+<view>Hello {{name}}</view>
+<view>我的年龄{{age+20}}</view>
+
+
+<!-- 2.列表渲染 -->
+<!-- {{}} 取变量 -->
+<view wx:for="{{students}}">{{item.name}}-{{item.id}}</view>
+
+<!-- 事件监听 -->
+<view>当前计数:{{counter}}</view>
+<button size="mini" bindtap="handlerButtonClick">+</button>
+<button size="mini" bindtap="subHandlerButtonClick">-</button>
