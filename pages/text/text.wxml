@@ -1,0 +1,9 @@
+<!--pages/text/text.wxml-->
+<!-- text组件的使用 -->
+<!-- 1.基本使用 -->
+<text>hello world\n</text>
+<text>hello world\n</text>
+
+<!-- 2.属性 -->
+<text>hello world\n</text>
+<text>hello world\n</text>
