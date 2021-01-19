@@ -39,59 +39,37 @@ Page({
     });
   },
 
-  /**
-   * 生命周期函数--监听页面加载
-   */
-  onLoad: function (options) {
-
+  handlerGetUserInfo(event){
+    console.log(event);
   },
 
-  /**
-   * 生命周期函数--监听页面初次渲染完成
-   */
-  onReady: function () {
 
+  //生命周期函数
+  // 页面加载
+  onLoad(){
+    console.log("onLoad");
+    //发送网络请求
+    wx.request({
+      url: 'url',
+    })
+    
   },
-
-  /**
-   * 生命周期函数--监听页面显示
-   */
-  onShow: function () {
-
+  //页面初次渲染完成
+  onReady(){
+    console.log("onReady");
   },
-
-  /**
-   * 生命周期函数--监听页面隐藏
-   */
-  onHide: function () {
-
+  //页面显示
+  onShow(){
+    console.log("onShow");
   },
-
-  /**
-   * 生命周期函数--监听页面卸载
-   */
-  onUnload: function () {
-
+  //页面隐藏
+  onHide(){
+    console.log("onHide");
   },
-
-  /**
-   * 页面相关事件处理函数--监听用户下拉动作
-   */
-  onPullDownRefresh: function () {
-
-  },
-
-  /**
-   * 页面上拉触底事件的处理函数
-   */
-  onReachBottom: function () {
-
-  },
-
-  /**
-   * 用户点击右上角分享
-   */
-  onShareAppMessage: function () {
-
+  //
+  onUnload(){
+    console.log("onUnload");
   }
+ 
+  
 })

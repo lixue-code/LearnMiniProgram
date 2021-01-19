@@ -3,14 +3,36 @@
     "pages/about/about",
     "pages/index/index",
     "pages/logs/logs"
-    
+
   ],
+
   "window": {
-    "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "Weixin",
-    "navigationBarTextStyle": "black"
+    "navigationBarBackgroundColor": "#ff5777",
+    "navigationBarTitleText": "购物街",
+    "navigationBarTextStyle": "white",
+    "enablePullDownRefresh": true,
+    "backgroundColor": "#eeeeee",
+    "backgroundTextStyle": "dark"
   },
+
+  "tabBar": {
+    "selectedColor": "#ff5777",
+    "list": [
+      {
+        "pagePath": "pages/about/about",
+        "text": "tabBar1"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "tabBar2"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "tabBar2"
+      }
+    ]
+  },
+
   "style": "v2",
   "sitemapLocation": "sitemap.json"
 }

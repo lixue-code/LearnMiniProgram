@@ -12,3 +12,6 @@
 <view>当前计数:{{counter}}</view>
 <button size="mini" bindtap="handlerButtonClick">+</button>
 <button size="mini" bindtap="subHandlerButtonClick">-</button>
+<button size="mini" open-type="getUserInfo" bindgetuserinfo="handlerGetUserInfo">获取用户信息</button>
+<open-data type="userNickName"></open-data>
+<open-data type="userAvatarUrl"></open-data>
